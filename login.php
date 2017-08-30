@@ -2,9 +2,10 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>登陆会员账号</title>
-	<meta name="keywords" content="注册，空间，个人页面" />
+	<meta name="keywords" content="注册，空间，个人页面,空间图片" />
 	<meta name="description" content="这是个人注册页面" />
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<script type="text/javascript">
