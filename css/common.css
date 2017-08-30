@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*重置样式*/
+body,div,p,ul,ol,dl,dt,dd,li,form,input,table,th,td,img,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+body{background:#FFF none;color: #000;font-size: 12px;font-style: normal;font-family: 'Microsoft YaHei',sans-serif;}
+em,b,i{font-style:normal;}
+img{ border:none;}
+a{ text-decoration:none; color:#000;}
+a:hover{ text-decoration:underline; color:#1E63B0;}
+li{ list-style:none;}
+table{border-spacing:0; border-collapse:collapse;}
+
+.wrapper {width:100%;}
+.w1196 {width: 1196px; margin: auto;}
+.clear{ height:0px; line-height:0; font-size:0; overflow:hidden; clear:both;}
+.lastli {margin-right: 0px ; padding-right: 0px;}
+#head,#nav,#content,#foot {width: 980px; margin: 0 auto;}
+
+/*注册头部*/
+#head {position: relative;}
+#head .top-head, #head .top-login {width: 330px; background: url(../images/reg.png) no-repeat right;}
+#head .top-login {background: url(../images/title.png) no-repeat right;}
+
+#head .top-head a {width: 330px; height: 76px;}
+#head .top-head a img {margin-top: 15px;}
+#head .login {position: absolute;top: 30px; right: 0;}
+#head .login a {display: inline-block; border: #CCC 1px solid; padding: 6px 7px;}
+
+#nav {width: 100%;}
+#nav .nav-bar {height: 20px; background: url(../images/reg_hr.png) no-repeat center top;}
+
+#content .show {padding-top: 50px;}
+#content .showCenter {text-align: center; font-size: 17px; color: red;}
+
+#content .show .show-left {float: left;}
+#content .show .show-right {float: right;}
+#content .show input.show-input, #content .show textarea {width: 320px; height: 16px; padding: 10px; border:#DDD 1px solid; color: #666;}
+#content .show textarea {margin-left: 10px; height: 60px;}
+
+#content .show span{padding-left: 10px; color: red;}
+#content .show p {font-size: 15px; color: #666; margin-bottom: 30px;}
+#content .show p.input-submit {padding-left: 75px;}
+#content .show p.input-submit input {width: 340px; height: 40px; cursor:pointer;}
+#content .show .padding {padding-top:30px;}
+#content .show input.login_input {width: 120px;}
+
+#content .show p.codeparent {position: relative;}
+#content .show p .codeimg {position: absolute; top: 0px; left: 230px;}
+
+#content .show .imgul li {float: left; margin: 0 10px; height: 190px; margin-bottom: 10px;}
+#content .show .imgul li a{ display:block; border: #FFF 1px solid; padding: 5px;}
+#content .show .imgul li a:hover {border: pink 1px solid;}
+#content .show .imgul li h6 {display:block; text-align: center; height: 30px; line-height: 30px; font-size: 15px; font-weight: normal;}
+
+#content .show .page {margin:0 auto; text-align: center;}
+
+#content .show .show-right,#content .show .show-active {width: 420px; height: 320px; background:url(../images/myci.jpg) no-repeat center center;}
+#content .show .show-active {width: 420px; height: 320px; background: url(../images/active.jpg) no-repeat center center;}
+#foot {margin-top:50px; border-top: #CCC 1px solid; text-align: center; padding-top: 20px; color: #999; font-size: 13px;}
+
+
+
+
